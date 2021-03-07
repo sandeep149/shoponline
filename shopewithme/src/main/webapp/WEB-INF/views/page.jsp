@@ -19,6 +19,8 @@
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="description" content="">
 <meta name="author" content="">
+<meta name="_csrf" content="${_csrf.token}">
+<meta name="_csrf_header" content="${_csrf.headerName }">
 
 <title>Shop with me - ${title}</title>
 
@@ -88,14 +90,21 @@
 		<!-- /.container -->
 		<!-- Bootstrap core JavaScript -->
 		<script src="${ js }/jquery.js"></script>
-		<script src="${ js }/jquery.min.js"></script>
+		<script src="${ js }/bootstrap.min.js"></script>
 		<script src="${ js }/bootstrap.bundle.min.js"></script>
+		<!-- // jquery validation -->
+		<script src="${ js }/jquery.validate.js"></script>
+		<script src="${ js }/jquery.validate.mim.js"></script>
+		
 
 		<!-- DataTable Plugin -->
 		<script src="${ js}/jquery.dataTables.js"></script>
 
 		<!-- DataTable Bootstrap css -->
-		<script src="${ js}/dataTables.bootstrap.js"></script>
+		<script src="${ js }/dataTables.bootstrap.js"></script>
+		
+		<!-- Bootbox css -->
+		<script src="${ js }/bootbox.min.js"></script>
 
 
 		<!-- self coded javascript  -->
